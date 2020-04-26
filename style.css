@@ -1,0 +1,185 @@
+.container {
+	padding: 0;
+}
+
+/*a h1 {
+	font-size: 45px; 
+	text-align: center; 
+	padding-top: 90px; 
+	padding-bottom: 10px; 
+	text-decoration: none; 
+	display: inline-block; 
+	display: flex; 
+	justify-content: 
+	center; flex-wrap: wrap;
+	font-family: 'Arial', serif;
+}*/
+
+.world img {
+	margin-left: 50px;
+}
+
+.about p {
+	font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	text-align: justify;
+	font-size: 15px; 
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	margin: 0;
+	text-align: center;
+}
+
+.nav-item {
+	text-align: center;
+	color: #fff;
+	}
+
+.nav-item a {
+	font-size: 15px; 
+	font-family: 'Roboto', sans-serif;
+	}
+
+.nav-list {
+	margin-left: 50; 
+	padding: 0; 
+	list-style: none;	
+	}
+
+.icon {
+	color: #000; 
+	font-size: 20px; 
+	margin-top: 7px;
+}
+
+h3 {
+	margin-top: 0px; 
+	font-size: 15px; 
+	margin-left: 0px; 
+	padding: 8px 0; 
+	color: #FFF; 
+	text-align:center; border: 1px double #000; 
+	background: #000;
+	font-family: 'Roboto', sans-serif;
+}
+
+.col li {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+img {
+	width: 100%; 
+	margin-bottom: 10px; 
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+.about-img {
+	margin-left: 90px;
+}
+
+.navbar {
+	padding: 0; 
+	border-bottom: 1px solid #000; 
+	background: #FFF;
+
+}
+.navbar-brand {
+	margin: 0;
+}
+
+.navbar-nav {
+	width: 100%; 
+	display: flex; 
+	justify-content: center; 
+	flex-wrap: wrap; 
+	background: #000;
+} 
+
+.nav-item a:hover {
+	text-decoration: underline;
+}
+
+.navbar-dark {
+	background: #000;
+}
+
+.white {
+	color: #FFF;
+}
+	
+#wrapper {
+	padding: 8px 0;
+}	
+
+#wrapper h2 {
+	padding-top: 20px; 
+	font-size: 30px;
+}
+
+#wrapper .content {}
+
+#wrapper li{
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper ul{
+	margin: 0;
+	font-size: 15px;
+}
+
+#wrapper p {
+	margin: 0;
+	font-size: 15px;
+}
+
+.line-1 {
+	border-bottom: 1px solid #000;
+}
+
+.line-2 {
+	border-top: 1px solid #000;
+}
+
+footer {
+	border-top: 1px solid #000; 
+	position: fixed; bottom: 0; right: 0; left: 0;
+	background: #FFF; 
+	display: flex; 
+	justify-content: center; 
+	flex-wrap: wrap; 
+	margin: 0 auto; 
+	background: #000;
+	text-align: center;
+}
+
+footer p {
+	padding: 10px 0; 
+	color: #fff;
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+	#dot {display: none;}
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
